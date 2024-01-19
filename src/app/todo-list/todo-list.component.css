@@ -1,0 +1,53 @@
+/* todo-list.component.css */
+
+.todo-container {
+  max-width: 400px;
+  margin: auto;
+  font-family: 'Helvetica Neue', sans-serif;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  color: black; /* Header color in black for better visibility */
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 8px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ddd;
+}
